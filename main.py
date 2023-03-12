@@ -11,7 +11,7 @@ population_nsk = 1621500
 population_rus = 145478097
 city_consume = avg_consume * population_nsk
 country_consume = avg_consume * population_rus * 365
-print(ru.VOLUMEINLITRESOUTPUT, volume_lit)
+print(ru.VOLUMEOUTPUT, round(volume_lit, 2))
 print(ru.OILBARRELS, round(bbl_of_oil, 2))
 print(ru.CARBONDIOXIDEOUTPTUT, round(carbon_dioxide, 2))
 print(ru.ETHANOLOUTPUT, round(ethanol_volume, 2))
