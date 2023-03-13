@@ -1,11 +1,13 @@
 import ru_local as ru
 
 volume_gal = float(input(ru.VOLUMEINPUT))
+
 volume_lit = volume_gal * 3.79
 bbl_of_oil = volume_gal / 19.5
 carbon_dioxide = volume_gal * 20
 ethanol_volume = (volume_gal * 115000) / 75700
 cost_usd = volume_gal * 3
+
 AVG_CONSUME = 0.933
 POPULATION_NSK = 1621500
 POPULATION_RUS = 145478097
